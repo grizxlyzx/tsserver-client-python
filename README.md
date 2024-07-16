@@ -53,5 +53,7 @@ if __name__ == '__main__':
 ## See Also
 
 https://github.com/microsoft/TypeScript/blob/main/src/server/protocol.ts
+
 https://github.com/microsoft/TypeScript-Sublime-Plugin/tree/master
+
 https://github.com/microsoft/monitors4codegen/tree/main/src/monitors4codegen/multilspy
