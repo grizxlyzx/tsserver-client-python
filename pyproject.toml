@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tsserver_client"
+version = "0.0.1"
+dependencies = []
+requires-python = ">=3.10"
+authors = [
+    {name = "Grizxly", email = "grizxlyzx@gamil.com"}
+]
+maintainers = [
+    {name = "Grizxly", email = "grizxlyzx@gamil.com"}
+]
+
+description = "TSServer client implemented in Python."
+readme = "./README.md"
+license = {file = "LICENSE"}
+keywords = ["language server", "typescript", "tsserver"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+
+[project.urls]
+Repository = "https://github.com/grizxlyzx/tsserver-client-python"
+
+
+[tool.setuptools]
+packages = ["tsserver_client"]
+py-modules = ["__init__"]
